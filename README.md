@@ -6,26 +6,6 @@
 > 
 > This is an early beta release. We welcome feedback, bug reports, and especially contributors!
 
----
-
-## 🤖 AI Assisted Form Builder (via Integration Engine)
-
-Formity Zero features an **AI Assisted Form Builder** powered by the Integration Engine. This engine is the backbone for all integrations, including current and upcoming roadmap features. Every integration—whether serverless, CRM, storage, or payments—is managed through the Integration Engine, ensuring a unified, extensible, and maintainable architecture.
-
-- **LLM-driven form generation from plain language prompts**
-- **AI validation rules that adapt to user answers**
-- **Auto-mapping form fields to CRM columns**
-
-| Task                      | Status                            |
-| ------------------------- | --------------------------------- |
-| **AI Form Generator**     | `🚧` LLM prompt → JSON schema     |
-| **AI Validation Engine**  | `🚧` Auto-adaptive rules          |
-| **Supabase Auth**         | `🚧` User sign-up flows           |
-| **HubSpot OAuth**         | `🚧` Token storage & sync         |
-| **Google Drive Upload**   | `🚧` OAuth + list/delete files    |
-| **Stripe Checkout Field** | `🚧` Payment confirmation webhook |
-
----
 
 **Contributors:** Please review our [Code Guidelines](CODE_GUIDELINES.md) before submitting a PR. The guidelines include detailed, line-by-line help and best practices for contributing to this codebase.
 
@@ -48,6 +28,26 @@ Formity Zero features an **AI Assisted Form Builder** powered by the Integration
 - **Cloud Storage Integrations** (Google Drive, OneDrive, Dropbox)
 - **Payments Integration** (Stripe, others)
 
+---
+
+### 🤖 AI Assisted Form Builder (via Integration Engine) **Highest-Priority**
+
+Formity Zero features an **AI Assisted Form Builder** powered by the Integration Engine. This engine is the backbone for all integrations, including current and upcoming roadmap features. Every integration—whether serverless, CRM, storage, or payments—is managed through the Integration Engine, ensuring a unified, extensible, and maintainable architecture.
+
+- **LLM-driven form generation from plain language prompts**
+- **AI validation rules that adapt to user answers**
+- **Auto-mapping form fields to CRM columns**
+
+| Task                      | Status                            |
+| ------------------------- | --------------------------------- |
+| **AI Form Generator**     | `🚧` LLM prompt → JSON schema     |
+| **AI Validation Engine**  | `🚧` Auto-adaptive rules          |
+| **Supabase Auth**         | `🚧` User sign-up flows           |
+| **HubSpot OAuth**         | `🚧` Token storage & sync         |
+| **Google Drive Upload**   | `🚧` OAuth + list/delete files    |
+| **Stripe Checkout Field** | `🚧` Payment confirmation webhook |
+
+---
 ---
 
 # 🤝 Contribute to the Roadmap!
@@ -77,7 +77,7 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
   - [ ] Map generated form fields to CRM columns automatically
   - [ ] Allow user override and review of mappings using [ahead-shadcn]
 
-## 1. Serverless Integration Handling (Supabase)
+## 1. Serverless Integration Handling (Supabase) **High-Priority**
 - **Database Integration for Form Builder**
   - [ ] Implement Supabase client and connection config in the integration engine
   - [ ] Enable saving form definitions and user submissions to Supabase tables
@@ -85,7 +85,7 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
   - [ ] Add Supabase Auth for end-user sign-up/sign-in flows (with SSO support)
   - [ ] Connect form access and submission to authenticated user sessions using [ahead-shadcn] UI
 
-## 2. CRM Integrations (HubSpot, Zoho, Next CRM, others)
+## 2. CRM Integrations (HubSpot, Zoho, Next CRM, others) **High-Priority**
 - **HubSpot Integration**
   - [ ] Add OAuth2/SSO flow and token storage for HubSpot
   - [ ] Map form fields to HubSpot contact properties and push submissions
@@ -93,7 +93,7 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
   - [ ] Implement Zoho/Next CRM API connectors with SSO
   - [ ] Enable mapping and syncing of form data to CRM leads/contacts using [ahead-shadcn] UI
 
-## 3. Google Drive, OneDrive, Dropbox Integrations (File Uploads)
+## 3. Google Drive, OneDrive, Dropbox Integrations (File Uploads) **Medium-Priority**
 - **Google Drive Integration**
   - [ ] Add OAuth2/SSO and file upload endpoint for Google Drive
   - [ ] Allow users to select/upload files directly to their Drive from the form using [ahead-shadcn]
@@ -101,7 +101,7 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
   - [ ] Implement OneDrive/Dropbox file upload endpoints with SSO
   - [ ] Support file management (list, delete, download) from the form UI using [ahead-shadcn]
 
-## 4. Payments Integration (Stripe, others)
+## 4. Payments Integration (Stripe, others) **Medium-Priority**
 - **Stripe Integration**
   - [ ] Add Stripe Checkout/Elements to the form builder as a payment field using [ahead-shadcn]
   - [ ] Handle payment confirmation and webhook for form submission
@@ -109,7 +109,7 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
   - [ ] Add support for additional providers (e.g., PayPal, Square, Amazon Payment Services, 2Checkout/Verifone, Geidea, Fawry, Mada, takepayments, Worldpay, Revolut) with SSO where available
   - [ ] Standardize payment integration schema for easy extension
 
-## 5. Calendar Integrations (Google Calendar, Microsoft Calendar)
+## 5. Calendar Integrations (Google Calendar, Microsoft Calendar) **Low-Priority**
 - **Google Calendar Integration**
   - [ ] Integrate Google Calendar API via the Integration Engine for booking forms
   - [ ] Build booking form UI using [ahead-shadcn] and support SSO for end users
