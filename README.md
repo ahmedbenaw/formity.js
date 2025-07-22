@@ -62,20 +62,21 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
 - **Google AI API Integration (Highest Priority)**
   - [ ] Integrate Google AI API with the Integration Engine for LLM-driven form generation
   - [ ] Enable prompt-to-JSON schema conversion and adaptive validation using Google AI
-- **OpenAI Integration**
-  - [ ] Integrate OpenAI (GPT-4/3.5) for form generation and validation
-  - [ ] Add fallback and multi-provider support in the Integration Engine
-- **Kimi 2, DeepSeek, Claude, Grok Integrations**
-  - [ ] Add Kimi 2, DeepSeek, Claude, and Grok as selectable LLM providers in the Integration Engine
-  - [ ] Standardize LLM API schema for easy extension and provider switching
-- **LLM-driven Form Generation**
+ - **LLM-driven Form Generation (High Priority)**
   - [ ] Build UI for plain language form creation using [ahead-shadcn]
-- **AI Validation Rules**
+- **AI Validation Rules (High Priority)**
   - [ ] Create adaptive validation logic that responds to user answers
   - [ ] Integrate validation feedback into the form UI using [ahead-shadcn]
-- **Auto-mapping to CRM Columns**
+- **Auto-mapping to CRM Columns (High Priority)**
   - [ ] Map generated form fields to CRM columns automatically
   - [ ] Allow user override and review of mappings using [ahead-shadcn]
+- **OpenAI Integration (Low Priority)**
+  - [ ] Integrate OpenAI (GPT-4/3.5) for form generation and validation
+  - [ ] Add fallback and multi-provider support in the Integration Engine
+- **Kimi 2, DeepSeek, Claude, Grok Integrations  (Low Priority)**
+  - [ ] Add Kimi 2, DeepSeek, Claude, and Grok as selectable LLM providers in the Integration Engine
+  - [ ] Standardize LLM API schema for easy extension and provider switching
+
 
 ## 1. Serverless Integration Handling (Supabase) **High-Priority**
 - **Database Integration for Form Builder**
@@ -94,18 +95,18 @@ We invite collaborators to help us build the next generation of Formity Zero. Be
   - [ ] Enable mapping and syncing of form data to CRM leads/contacts using [ahead-shadcn] UI
 
 ## 3. Google Drive, OneDrive, Dropbox Integrations (File Uploads) **Medium-Priority**
-- **Google Drive Integration**
+- **Google Drive Integration (High Priority)**
   - [ ] Add OAuth2/SSO and file upload endpoint for Google Drive
   - [ ] Allow users to select/upload files directly to their Drive from the form using [ahead-shadcn]
-- **OneDrive/Dropbox Integration**
+- **OneDrive/Dropbox Integration (Medium Priority)**
   - [ ] Implement OneDrive/Dropbox file upload endpoints with SSO
   - [ ] Support file management (list, delete, download) from the form UI using [ahead-shadcn]
 
 ## 4. Payments Integration (Stripe, others) **Medium-Priority**
-- **Stripe Integration**
+- **Stripe Integration (High Priority)**
   - [ ] Add Stripe Checkout/Elements to the form builder as a payment field using [ahead-shadcn]
   - [ ] Handle payment confirmation and webhook for form submission
-- **Other Payment Providers**
+- **Other Payment Providers (Medium Priority)**
   - [ ] Add support for additional providers (e.g., PayPal, Square, Amazon Payment Services, 2Checkout/Verifone, Geidea, Fawry, Mada, takepayments, Worldpay, Revolut) with SSO where available
   - [ ] Standardize payment integration schema for easy extension
 
