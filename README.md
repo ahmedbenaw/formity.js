@@ -1,14 +1,87 @@
-# 🚀 Formity Zero
+# 🚀 Formity Zero (v0.5 Beta)
 
 **Zero-bug, zero-config form & integration suite** – A complete monorepo containing everything you need to build modern web applications with forms, editors, and integrations.
 
-## ✨ Features
+> **Version:** 0.5 Beta
+> 
+> This is an early beta release. We welcome feedback, bug reports, and especially contributors!
 
-- **🎯 Formity.js** – 28-field form engine with validation and conditional logic
-- **🔌 @integration-engine/core** – Universal integration hub for any service
-- **✏️ Ahead-Editor** – Complete Editor.js wrapper with all tools pre-configured
-- **🎨 Ahead-Shadcn** – Shadcn/ui components ready to use
-- **🛠️ Developer-UX** – CLI + GUI for seamless development experience
+---
+
+## 🤖 AI Assisted Form Builder (via Integration Engine)
+
+Formity Zero features an **AI Assisted Form Builder** powered by the Integration Engine. This engine is the backbone for all integrations, including current and upcoming roadmap features. Every integration—whether serverless, CRM, storage, or payments—is managed through the Integration Engine, ensuring a unified, extensible, and maintainable architecture.
+
+**Contributors:** Please review our [Code Guidelines](CODE_GUIDELINES.md) before submitting a PR. The guidelines include detailed, line-by-line help and best practices for contributing to this codebase.
+
+---
+
+# 🛣️ Roadmap
+
+## ✅ Current Features
+- 28-field form builder with validation and conditional logic
+- Universal integration engine (Editor.js, Shadcn, Google Fonts, LLMs)
+- Developer UX: CLI + GUI, live preview, export to CodeSandbox/StackBlitz
+- Self-healing, cross-platform bootstrap and dependency doctor
+- TypeScript, Turbo, pnpm, Vite, and full monorepo setup
+
+## 🚧 Upcoming Features
+- **Integration Schemas**: Standardized, reusable integration blueprints for third-party services
+- **Serverless Integration Handling (Supabase)**
+- **CRM Integrations** (HubSpot, Zoho, Next CRM, others)
+- **Cloud Storage Integrations** (Google Drive, OneDrive, Dropbox)
+- **Payments Integration** (Stripe, others)
+
+---
+
+# 🤝 Contribute to the Roadmap!
+
+We invite collaborators to help us build the next generation of Formity Zero. Below are prioritized objectives and subtasks. **Pick an easy one to get started, or challenge yourself with a harder one!**
+
+## 1. Serverless Integration Handling (Supabase)
+- **Database Integration for Form Builder**
+  - [ ] Implement Supabase client and connection config in the integration engine
+  - [ ] Enable saving form definitions and user submissions to Supabase tables
+- **Authentication**
+  - [ ] Add Supabase Auth for end-user sign-up/sign-in flows
+  - [ ] Connect form access and submission to authenticated user sessions
+
+## 2. CRM Integrations (HubSpot, Zoho, Next CRM, others)
+- **HubSpot Integration**
+  - [ ] Add OAuth2 flow and token storage for HubSpot
+  - [ ] Map form fields to HubSpot contact properties and push submissions
+- **Zoho/Next CRM Integration**
+  - [ ] Implement Zoho/Next CRM API connectors
+  - [ ] Enable mapping and syncing of form data to CRM leads/contacts
+
+## 3. Google Drive, OneDrive, Dropbox Integrations (File Uploads)
+- **Google Drive Integration**
+  - [ ] Add OAuth2 and file upload endpoint for Google Drive
+  - [ ] Allow users to select/upload files directly to their Drive from the form
+- **OneDrive/Dropbox Integration**
+  - [ ] Implement OneDrive/Dropbox file upload endpoints
+  - [ ] Support file management (list, delete, download) from the form UI
+
+## 4. Payments Integration (Stripe, others)
+- **Stripe Integration**
+  - [ ] Add Stripe Checkout/Elements to the form builder as a payment field
+  - [ ] Handle payment confirmation and webhook for form submission
+- **Other Payment Providers**
+  - [ ] Add support for additional providers (e.g., PayPal, Square)
+  - [ ] Standardize payment integration schema for easy extension
+
+---
+
+## 🏁 How to Get Involved
+
+- **Fork the repo** and pick a subtask above (start with an easy one if you're new!)
+- **Open an issue** to discuss your approach or ask for guidance
+- **Submit a PR** with your changes and reference the subtask
+- **Join the discussion**: Suggest new features, integrations, or improvements
+
+We prioritize easy subtasks for new contributors, but all help is welcome!
+
+---
 
 ## 🚀 Quick Start
 
