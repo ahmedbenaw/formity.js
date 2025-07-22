@@ -1,0 +1,19 @@
+{
+  "name": "formity-zero",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "e2e": "turbo run e2e",
+    "lint": "turbo run lint",
+    "check": "turbo run check",
+    "doctor": "node scripts/doctor.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.7.0",
+    "turbo": "^2.0.6"
+  },
+  "packageManager": "pnpm@9.4.0"
+} 
